@@ -1,0 +1,57 @@
+{
+    "manufacturer": "Pixlox, Inc.",
+    "keyboard_name": "cyrenepad",
+    "maintainer": "pixlox",
+    "bootloader": "rp2040",
+    "processor": "RP2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "oled": true,
+        "rgblight": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP3", "GP4", "GP2", "GP1", "GP28"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP27", "pin_b": "GP26"}
+        ]
+    },
+    "rgblight": {
+        "led_count": 4,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "static_gradient": true
+        }
+    },
+    "ws2812": {
+        "pin": "GP6",
+        "driver": "vendor"
+    },
+    "url": "https://github.com/Pixlox/qmk_firmware",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0}
+            ]
+        }
+    }
+}
