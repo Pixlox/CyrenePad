@@ -1,10 +1,10 @@
 # CyrenePad
-A simple macropad, created as a Hack Club hackpad. Dedicated (slightly i guess) to Cyrene from Honkai: Star Rail, for some reason.
+A simple macropad, created as a Hack Club hackpad. Dedicated to Cyrene from Honkai: Star Rail... for some reason.
 
-First ever hardware project like this! It was a speedrun though.
+> This will be a romantic story like none that has come before... you think so too, right?
 
 ## CAD
-It's pretty simple, I can't lie, but I've added some branding to it.
+It's pretty simple. I've added some Cyrene branding to it, though.
 
 <img src=assets/cad.jpg alt="CAD model" width="650"/>
 
@@ -13,6 +13,11 @@ Here's the PCB! First time doing something like this too!
 
 <img src=assets/pcb.jpg alt="PCB" width="300"/>
 <img src=assets/schematic.jpg alt="Schematic" width="300"/>
+
+And, here's the 3D model!
+
+<img src=assets/pcb2.jpg alt="PCB 3D Model" width="400"/>
+<img src=assets/pcb3.jpg alt="PCB 3D Model" width="400"/>
 
 ## Firmware
 I got (hopefully) the firmware to show this image.
